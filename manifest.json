@@ -1,0 +1,11 @@
+{
+  "name": "Correct window",
+  "version": "0.0.1",
+  "description": "Open links in correct Google chrome window",
+  "manifest_version": 3,
+  "author": "Mantas Juskevicius",
+  "permissions": ["nativeMessaging", "webNavigation"],
+  "background": {
+    "service_worker": "scripts/service-worker.js"
+  }
+}
